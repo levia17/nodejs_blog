@@ -4,9 +4,9 @@ const blogsRouter = require("./blogs");
 
 function routes(app) {
   
-  app.get("/blogs", blogsRouter);
-  app.get("/news", newsRouter);
-  app.get("/", siteRouter);
+  app.use("/blogs", blogsRouter);
+  app.use("/news", newsRouter);
+  app.use("/", siteRouter);
 
 
 }

@@ -1,7 +1,7 @@
 class Blogs{
     // [GET] /
     index(req, res){
-        res.send('Reading blogs here!');
+        res.render('blogs');
     }
 
 

@@ -17,11 +17,6 @@ class SiteController {
       .catch(next);
   }
 
-  // [GET] /news
-  news(req, res) {
-    res.render("news");
-  }
-
   blogs(req, res){
     res.render('blogs');
   }
